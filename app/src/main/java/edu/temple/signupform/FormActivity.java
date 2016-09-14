@@ -1,5 +1,6 @@
 package edu.temple.signupform;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class FormActivity extends AppCompatActivity {
+public class FormActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
